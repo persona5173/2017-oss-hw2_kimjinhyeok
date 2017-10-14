@@ -1,4 +1,4 @@
-#Redux
+# Redux
 - React.js를 통하여 만들어진 어플리케이션에서 데이터 교류 및 state 관리를 쉽고 효율적으로 하게 해주는 것
 - JavaScript 어플리케이션에서 data-state 와 UI-state를 관리해주는 도구
 - 상태적 데이터 관리가 시간의 흐름에 따라 복잡해질수도 있는 싱글 페이지 어플리케이션에서 유용하게 사용
@@ -13,8 +13,12 @@ MVC(Model, View, Controller)
 
 
 ![MVC1](./images/MVC.png)
-￼
+
+
+
 하지만!
+
+
 
 ![MVC2](./images/MVC2.png)￼
 
@@ -34,7 +38,7 @@ Dispatcher는 작업이 중첩되지 않도록 해줌. Action이 Dispatcher를 �
 
 Redux는, Flux 아키텍쳐를 좀 더 편리하게 사용 할 수 있도록 해주는 라이브러리
 
-#Redux의 3가지 원칙!
+# Redux의 3가지 원칙!
 
 # 첫째, Single Source of Truth
 Redux는 어플리케이션의 state를 위해 단 한개의 store를 사용!
