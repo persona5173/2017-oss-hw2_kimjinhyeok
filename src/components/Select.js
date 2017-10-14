@@ -30,9 +30,6 @@ class Select extends React.Component {
 
         this.setState({ init_num: e.target.value });
 
-        if(e.target.value=='') {
-            this.setState({ init_num: '0' });
-        }
 
         this.props.onUpdateNum(parseInt(e.target.value));
 
