@@ -1,4 +1,4 @@
-import { INCREMENT, CONFIRM, SET_INPUT } from '../actions';
+import { CONFIRM, SET_INPUT } from '../actions';
 import { combineReducers } from 'redux';
 
 const counterInitialState = {
